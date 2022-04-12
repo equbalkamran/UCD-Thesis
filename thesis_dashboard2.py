@@ -190,8 +190,8 @@ if mrn in rd['MRN']:
         
         st.write('_____________________________________________________________________________________________________________________________')
     if imgg:
-        img1 = Image.open('G:\Shared drives\DBS Data Visualization\img1.png')
-        img2=Image.open('G:\Shared drives\DBS Data Visualization\img2.png')
+        img1 = Image.open('img1.png')
+        img2=Image.open('img2.png')
         col1.image(img1,caption='Shared Image 1')
         col2.image(img2,caption='Shared Image 2')
     if countt:
