@@ -16,7 +16,7 @@ rd = pd.read_csv('thesis_dataset.csv')
 def std_error(data):
   return (np.std(data, ddof=1) / np.sqrt(np.size(data)))
 #%%
-st.header("Individual Patient Information Visualisation")
+st.header(" DNI Patient Data Visualisation System by UCD")
 st.write("This application shows the data of one individual patient based on the MRN Number given by the user.")
 st.subheader(" School of Electronics Engineering, University College Dublin and The Mater Misericordiae University Hospital")
 st.warning("Security Warning.")
@@ -193,8 +193,8 @@ if password=='MaterUCD':
             
             st.write('_____________________________________________________________________________________________________________________________')
         if imgg:
-            img1 = Image.open('G:\Shared drives\DBS Data Visualization\img1.png')
-            img2=Image.open('G:\Shared drives\DBS Data Visualization\img2.png')
+            img1 = Image.open('img1.png')
+            img2=Image.open('img2.png')
             col1.image(img1,caption='Shared Image 1')
             col2.image(img2,caption='Shared Image 2')
             st.write('_____________________________________________________________________________________________________________________________')
